@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#contenedor{
+  margin: auto;
+  border: 1px;
+  height: 500px;
+  width: 810px;
+  background: #EAEFBB;
+  padding: 0.5px;
+
+}
+#header1{
+  margin: auto;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 80px;
+  color: magenta;
+  width: 800px;
+  height: 100px;
+  background-color: black;
+  
+}
+#header2 {
+  margin: 1px auto;
+  width: 800px;
+  height: 20px;
+  background-color: lightpink;
+}
+/* Estilo para el contenedor principal */
+.contenedor-principal {
+    display: flex; /* Usamos Flexbox para alinear los contenedores horizontalmente */
+    gap: 10px; /* Espacio entre los contenedores */
+    padding: 20px; /* Espacio interior del contenedor principal */
+}
+
+/* Estilo base para los contenedores internos */
+.contenedor {
+    flex: 1; /* Cada contenedor ocupa el mismo espacio */
+    height: 100px; /* Altura fija para cada contenedor */
+}
+
+/* Colores específicos para cada contenedor */
+.rosa {
+    background-color: #f9a1b8; /* Color rosado */
+}
+
+.gris-claro {
+    background-color: #d3d3d3; /* Gris claro */
+}
+
+.gris-oscuro {
+    background-color: #a9a9a9; /* Gris oscuro */
+}
+ #footer {
+  margin: auto;
+  font-size: 10px;
+  color: black;
+  width: 800px;
+  height: 20px;
+  background-color: dimgrey;
+}
+ul {
+  padding-left: 20px;
+  padding-top: 20px;
+  
+}
+li {
+padding: 10px;
+
+}

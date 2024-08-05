@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+#formulario{
+	
+	background-color: #EAEFBB;
+
+}
+
+body {
+	font-family: Arial;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	border: 10px;
+	height: 100%;
+	width: 100%;
+	
+	min-height: 0vh;
+
+
+}
+form {
+	background-color: whitesmoke;
+	padding: 5px;
+	display: inline-block ;
+	flex-direction: column;
+	text-align: center;
+	width: 500px;
+	height: 600px;
+
+}
+form h2{
+	font-size: 30px ;
+	color: black;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+input {
+	padding: 5px 5px;
+	width: 60%;
+	background-color: white ;
+	margin: 5px;
+	color: #CDCBD2;
+	outline: none;
+	font-size: 15px;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+::placeholder{
+	color:grey;
+
+}
+select {
+    
+    padding: 5px ;
+    width: 50%;
+	background-color: white ;
+	margin-bottom: 15px;
+	color: black ;
+	outline: none;
+	font-size: 15px;
+	border-radius: 10px;
+   }
+
+.btn{
+	background-color: #35EDB6 ;
+	color: white;
+	font-weight:bold ;
+	cursor: pointer;
+
+}	
+.btn:hover {
+	background-color: black;
+}
+
+input:invalid:required {
+  background-image: white;
+}
+
+input:valid {
+  border: 2px solid black;
+
+@media(max-width:991px){
+	body{
+		padding: 100px;
+		
+	}
+}

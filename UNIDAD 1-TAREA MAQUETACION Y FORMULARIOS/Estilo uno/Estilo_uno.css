@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#header1{
+  margin: auto;
+  margin-top: 10px;
+  width: 1050px;
+  height: 100px;
+  background-color: black;
+  
+}
+#header2 {
+  margin: auto;
+  width: 1050px;
+  height: 20px;
+  background-color: deeppink;
+}
+ #central {
+  margin: auto;
+  width: 1050px;
+  height: 300px;
+  background-color: grey ;
+}
+ #footer {
+  margin: auto;
+  width: 1050px;
+  height: 20px;
+  background-color: dimgrey;
+}
+ul {
+  padding-left: 25px;
+  padding-top: 25px;
+  
+}
+li {
+padding: 20px;
+
+
+}
